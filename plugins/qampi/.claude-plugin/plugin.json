@@ -1,0 +1,28 @@
+{
+  "name": "qampi",
+  "version": "0.1.2",
+  "description": "LinkedIn outreach from Claude Code: find prospects, add leads, run Qampi campaigns and read results.",
+  "author": {
+    "name": "Qampi",
+    "url": "https://qampi.com"
+  },
+  "homepage": "https://qampi.com",
+  "repository": "https://github.com/ShivaSingh9927/qampi-plugins",
+  "license": "MIT",
+  "keywords": ["linkedin", "outreach", "sales", "lead-generation", "mcp"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Qampi API key",
+      "description": "Create one in Qampi → Settings → API keys. Starts with qampi_live_.",
+      "required": true,
+      "sensitive": true
+    },
+    "mode": {
+      "type": "string",
+      "title": "Mode",
+      "description": "read-only (recommended to start): Claude can only look. full: Claude can also add leads, create campaigns and, with your go-ahead, launch them.",
+      "default": "read-only"
+    }
+  }
+}

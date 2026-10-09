@@ -1,0 +1,20 @@
+{
+  "name": "qampi",
+  "interface": {
+    "displayName": "Qampi"
+  },
+  "plugins": [
+    {
+      "name": "qampi",
+      "source": {
+        "source": "local",
+        "path": "./plugins/qampi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

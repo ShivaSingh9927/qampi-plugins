@@ -1,0 +1,15 @@
+{
+  "name": "qampi",
+  "description": "Qampi plugins: LinkedIn outreach from your coding agent.",
+  "owner": {
+    "name": "Qampi",
+    "url": "https://qampi.com"
+  },
+  "plugins": [
+    {
+      "name": "qampi",
+      "source": "./plugins/qampi",
+      "description": "Find prospects, add leads, run Qampi campaigns and read results from Claude Code."
+    }
+  ]
+}

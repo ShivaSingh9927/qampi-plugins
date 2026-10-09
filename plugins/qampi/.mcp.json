@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qampi": {
+      "command": "npx",
+      "args": ["-y", "@qampi/mcp-server@0.1.2"],
+      "env": {
+        "QAMPI_API_KEY": "${user_config.api_key}",
+        "QAMPI_MODE": "${user_config.mode}"
+      }
+    }
+  }
+}

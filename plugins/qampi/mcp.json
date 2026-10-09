@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "qampi": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@qampi/mcp-server@0.1.2"]
+    }
+  }
+}
